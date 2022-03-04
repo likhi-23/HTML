@@ -1,0 +1,15 @@
+<html>
+ <p id="blink"><font size="80">WARNING</font></p>
+<script type="text/javascript">
+    var blink = document.getElementById('blink');
+    setInterval(function() {
+        blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+    }, 600);
+</script>
+<body bgcolor="red">
+
+
+<marquee>Read the message</marquee>
+ 
+</body>
+</html>
