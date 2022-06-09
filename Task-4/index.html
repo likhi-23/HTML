@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" type="image" href="https://icons-for-free.com/iconfiles/png/512/clipboard+inventory+list+report+tasks+todo+icon-1320184207175705647.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body{
+            background: linear-gradient(-45deg,#DEB887,#F5DE83,#B8860B,#D2691E);
+            background-size: 400% 400%;
+            animation: gradient 9s ease infinite;
+            height:100vh;
+        }
+        @keyframes gradient{
+          0% {
+            background-position: 0% 50%;
+          }
+          90% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+    
+          }
+      </style>
+    <br><br>
+    <div class="content">
+        <form action="dataset.csv"style="padding-left:50px">
+            <h4 style="font-size: 120%;font-weight: bold;">Personal Information</h4>
+
+            <p style="padding-left: 25px;">First name: <input type="text" placeholder=""></p>
+            <p style="padding-left: 25px;">Last name: <input type="text" placeholder=""></p>
+            <p style="padding-left: 25px;">Date of Birth: <input type="date" name="" id=""></p>
+
+            <p style="padding-left: 25px;">Gender:
+            <select name="gender" id="gender">
+                <option value="0">select your gender</option>
+                <option value="Female">Female</option>
+                <option value="male">male</option>
+                <option value="pooran">Others</option>
+                <option value="powell">Not to specify</option>
+            </select></p>
+
+            <h4 style="font-size: 120%;font-weight: bold;">Account Information</h4>
+            <p style="padding-left: 25px;">Email: <input type="email" placeholder=""> <br><p style="padding-left: 75px;font-size: 70%;">(Your email ID is your username)</p></p>
+            <p style="padding-left: 25px;">Re-Type Email: <input type="email" placeholder=""> <br></p>
+
+            <p style="padding-left: 25px;">Password: <input type="password" placeholder=""> <br><p style="padding-left: 95px;font-size: 70%;">(Min. 8 characters, 1 number)</p></p>
+            <p style="padding-left: 25px;">Re-Type Password: <input type="password" placeholder=""> <br></p>
+            
+            <p style="padding-left: 25px;">Security-Question:
+                <select name="sq" id="sq">
+                    <option value="0">Choose Your Security Question</option>
+                    <option value="Female">Your pet name</option>
+                    <option value="mahathi">First school name</option>
+                    <option value="vijay">Your Favourite Teacher Name</option>
+                    <option value="work hard dream big">Your Favourite Quote</option>
+                </select></p>
+                <p style="padding-left: 25px;">Security Answer: <input type="text" placeholder=""> <br><p style="padding-left: 145px;font-size: 70%;">(Not Case-Sensitive)</p></p>
+            
+            <h4 style="font-size: 120%;font-weight: bold;">Contact Information</h4>
+            <p style="padding-left: 25px;">Adress: <input type="text" placeholder=""></p>
+            <p style="padding-left: 25px;">City: <input type="text" placeholder=""></p>
+            <p style="padding-left: 25px;">State:
+                <select name="sq" id="sq">
+                    <option value="0">Choose Your State</option>
+                    <option value="1">Arunachal Prades</option>
+                    <option value="2">Andhra pradesh</option>
+                    <option value="3">Assam</option>
+                    <option value="4">Bihar</option>
+                    <option value="5">Chandigarh</option>
+                    <option value="6">Chattisgarh</option>
+                    <option value="7">Delhi</option>
+                    <option value="8">Goa</option>
+                    <option value="1">Gujarat</option>
+                    <option value="2">Haryana</option>
+                    <option value="3">Jammu & kashmir</option>
+                    <option value="4">Karnataka</option>
+                    <option value="5">Kerala</option>
+                    <option value="6">Madya pradesh</option>
+                    <option value="7">Nagaland</option>
+                    <option value="8">Punjab</option>
+                    <option value="3">Tamil Nadu</option>
+                    <option value="4">Telagana</option>
+                    <option value="5">Tripura</option>
+                    <option value="6">Uttarakhand pradesh</option>
+                    <option value="7">Uttar pradesh</option>
+                    <option value="8">West bengal</option>
+                </select></p>
+            <p style="padding-left: 25px;">ZipCode: <input type="number" placeholder=""> <br></p>
+            <p style="padding-left: 25px;">Mobile number: <input type="number" placeholder=""> <br></p>
+            <button>save</button>
+        </form>
+        <br><br>
+    </div>
+    <br><br>
+</body>
+</html>
