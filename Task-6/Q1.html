@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>program_1</title>
+    <script>
+        function operate()
+        {
+            var name  = document.getElementById("user_name").value;
+            document.write(" welcome to my world " + name + " ! ");
+        }
+    </script>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+        .form_1{
+            margin:200px 500px;
+        }
+        input[type="button"] {
+            background-color: greenyellow;
+            margin:12px 50px;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form_1">
+        <form action="">
+            <label for="">Enter User Name : </label>
+            <input type="text" name="" id="user_name"> <br>
+            &nbsp;<input type="button" value="Submit" onclick = "operate()">
+        </form>
+    </div>
+</body>
+</html> 
